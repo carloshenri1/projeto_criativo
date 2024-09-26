@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 40px 120px;
+    line-height: 21.78px;
+
+    & .navbar{
+        display: flex;
+        gap: 51.84px;
+        align-items: center;
+    }
+    & .navbar .logo{
+        display: flex;
+        gap: 7.99px;
+    }
+    & .navbar ul{
+        display: flex;
+        gap: 51.84px;
+        align-items: center;
+       
+    }
+     &  .navbar li:first-child{
+        font-weight: 600;
+        color: #000000;
+        font-size: 18px;
+        
+        
+    }
+    & .navbar li{
+        font-weight: 400;
+        color: #6B7280;
+        font-size: 18px;
+      
+
+    }
+    & .navbar button{
+      
+        background: #1F1F39;
+        color: #FFF;
+        padding: 8.07px;
+        display: flex;
+       
+        border-radius: 8.07px;
+       line-height:22.63px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    gap: 60px;
+
+    & section {
+        display: flex;
+    }
+   
+     main .divs-lados .lado-direito{
+        width: 100%;
+    }
+
+    & .lado-esquerdo h1{
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 80px;
+        color :#1F1F39;
+    }
+    & .lado-esquerdo p{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 48px;
+        color: #1F1F39B2;
+        
+    }
+    & .lado-esquerdo button{
+        width:Fixed (246.49px);
+        height: Fixed (66px);
+        font-size: 24.24px;
+        line-height: 30.48px;
+        font-weight: 700;
+        background-color: #1F1F39;
+        color: #FFF;
+        border-radius: 10.87px;
+        padding: 10.87px;
+        gap: 10.87px;
+    }
+    & .lado-esquerdo{
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+    }
+
+    & .lado-direito img{
+        width: 774.73px;
+        height: 500px;
+    }
+    
+}
