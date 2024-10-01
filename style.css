@@ -60,7 +60,7 @@ main {
     padding: 120px;
     gap: 60px;
 
-    & section {
+    & #divs-lados {
         display: flex;
     }
    
@@ -104,4 +104,25 @@ main {
         height: 500px;
     }
     
+}
+
+.portfolio {
+    & h2{
+        width: 980px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 109px;
+    }
+     & .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:60px;
+       
+        & img{
+        width:100%;
+    }
+    }
+
 }
